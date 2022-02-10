@@ -62,4 +62,7 @@ add_action( 'after_setup_theme', 'myfirsttheme_setup' );
 wp_enqueue_style('bootstrapcss','https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
 wp_enqueue_script('bootstrapscript', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js');
 
+// Load style.css from template
+wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css');
+
 ?>
