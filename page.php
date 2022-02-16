@@ -13,6 +13,6 @@ if ( have_posts() ) :
 endif; 
 ?>
 
-<p><i>This in my Index.php page.</i></p>
+<p><i>This in my Page.php page.</i></p>
 
 <?php get_footer(); ?>
